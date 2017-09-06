@@ -15,7 +15,7 @@ def position_taken?(board,index)
       true
     end
 end
-def between(index)
+def between?(index)
    if index>=0 && index<=8
       true
    else
